@@ -16,7 +16,7 @@
 
 [tm]
 	#name for mbtiles
-	name = "google satelite"
+	name = "tianditu street"
 	#max and min level for mbtiles
 	min = 0
 	max = 11
@@ -31,11 +31,13 @@
 	# url = "https://api.mapbox.com/v4/mapbox.mapbox-terrain-v2/{z}/{x}/{y}.vector.pbf?sku=1016gFniej06a&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA"
 	# url = "https://api.maptiler.com/tiles/v3/{z}/{x}/{y}.pbf?key=KDhMfHvorAFkFe64wlZb"
 	# url = "http://mt0.google.com/vt/lyrs=s&x={x}&y={y}&z={z}"
-	# url = "https://t0.tianditu.gov.cn/DataServer?T=vec_w&x={x}&y={y}&l={z}&tk=75f0434f240669f4a2df6359275146d2"
-	url = "https://t0.tianditu.gov.cn/DataServer?T=img_w&x={x}&y={y}&l={z}&tk=75f0434f240669f4a2df6359275146d2"
+	# url = "https://t0.tianditu.gov.cn/DataServer?T=vec_w&x={x}&y={y}&l={z}&tk=7103c547e414d6d773ce1fbd149a38e8"
+	 url = "https://t1.tianditu.gov.cn/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=7103c547e414d6d773ce1fbd149a38e8" #影像注记
+	#url = "https://t0.tianditu.gov.cn/DataServer?T=img_w&x={x}&y={y}&l={z}&tk=7103c547e414d6d773ce1fbd149a38e8"
+	
 #lrs can set diff boundaries for diff levels
   [[lrs]]
-  	min = 0
+  	min = 1
   	max = 5
   	geojson = "./geojson/global.geojson"
  [[lrs]]
